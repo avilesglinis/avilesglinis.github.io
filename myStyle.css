@@ -1,6 +1,6 @@
 body {
-                background: rgb(12, 194, 233);
-                color: rgb(45, 45, 45);
+                background:hsl(0, 40%, 50%);
+                color: rgb(0, 0, 0);
                 padding: 10px;
                 font-family: arial;
             }
@@ -41,7 +41,7 @@ body {
     
             /* main container area beneath menu */
             main {
-                background: rgb(245,255, 21);
+                background: rgb(255, 154, 158);
                 display: flex;
             }
             .sidebar {
@@ -61,8 +61,4 @@ body {
             div {
             border: 1px solid black;
             }
-            header{
-    border: 7px solid red;
-    padding: 10px;
-    border-radius: 0px 40px;
-       }
+            
