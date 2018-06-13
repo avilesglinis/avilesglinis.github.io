@@ -4,14 +4,15 @@
         <title>Glinis's Amazing Website</title>
         <style type="text/css">
             body {
-                background: rgb(219,112,147);
-                color: rgb(	75,0,130);
+                background: rgba(228, 114, 135, 0.91);
+                color: rgb(16, 16, 16);
                 padding: 10px;
                 font-family: arial;
             }
             header {
                 font-size: 1.5em;
                 font-weight: bold;
+                
             }
             h1 {
                 margin: 10px;
@@ -23,10 +24,11 @@
     
             /* navigation menu */
             nav {
-                background: rgb(221,160,21);
+                
+                background: rgba(56, 139, 189, 1);
                 margin: 0 auto;
                 display: flex;
-                padding: 10px;
+                padding: 5px;
             }
             nav header {
                 display: flex;
@@ -50,7 +52,7 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
-            }s
+            }
             .content {
                 flex: 1;
                 padding: 15px;
@@ -63,9 +65,9 @@
             
             #portfolio li {
                 background: #fff;
-                padding: 10px;
-                border-radius: 10px;
-                margin-bottom: 10px;
+                padding: 5px;
+                border-radius: 0px;
+                margin-bottom: 5px;
             }
             
             #portfolio li:hover {
@@ -76,28 +78,62 @@
                 text-decoration: none;
                 color: #454545;
             }
+          .img {
+        border: 5px solid transparent;
+        padding: 0px;
+        border-image: url(border.png) 20% round;
+       }
+        .text{
+        
+         margin-left: 500px;
+        text-align: center;
+        color: black;
+      }
+      img {
+    border-radius: 50%;
+}
+.center {
+    margin: auto;
+    border: 3px;
+    padding: 0px;
+}
         </style>
     </head>
 
     <body>
+        
         <nav>
               <main>
             <div class="content">
                 <h1>Portfolio</h1>
                 <ul id="portfolio">
+                    <li>
+                        <a href="projects/bouncing-box/">Bouncing Box Game</a>
+                    </li>
+                    
                 </ul>
             </div>
         </main>
-            <header>Glinis's Glorious Website</header>
+            <h2><header>Glinis's Glorious Website</header></h2>
+            
             <ul>
-                <li><a href="index.html">Home</a>
+                <h1><li><a href="index.html">Home</a></h1>
                 </li>
-                <li><a href="portfolio.html">Portfolio</a>
+                <h1><li><a href="portfolio.html">Portfolio</a></h1>
                 </li>
+                
             </ul>
         </nav>
+       <div class="center">
+        <h2> <p class= text>
+            My name is Glinis Aviles, I am from Honduras
+            and I have been here since 2013. I am 17 years old and this is my first website. I'm so excited and proud of myself, hope you like it!!! Also, take a look at my little bouncing box game (at the left corner!).
+        </p></h2>
+        </div>
+        
+       <img class ="img" src="https://mail.google.com/mail/u/0/?ui=2&ik=0cd7143644&view=fimg&th=163f654255d8decc&attid=0.1&disp=emb&realattid=ii_jicbh46g0_163f653ec16ed0f1&attbid=ANGjdJ-6Fxe3kAezDFAKk10jo_ijkaVptQf1uyvm3-7kF8LDVE3CyAZ-YNmf5fgzD2PjydcZBWvnfQAskMK0TBCilX__iHF9D2TaaVd1fY3BtNOkDtx43BhRQQj94E8&sz=w584-h908&ats=1528846101196&rm=163f654255d8decc&zw&atsh=1 alt="Girl" style="width:308px;height:508px;">
+       
       <div id="all-contents">
-      
       </div>
     </body>
 </html>
